@@ -194,3 +194,19 @@
        ```
 
   4. Content
+
+<br/>
+
+### Block, Inline Block, Inline
+
+- `block`
+  - takes up the whole line
+- `display: inline-block;`
+  - a box can only be `block` or`inline-block`
+- `display: inline;`
+  - removes every box property
+    - `width: 200px;`
+    - `height:30px;`
+  - consider the content a text
+  - when applied to `<span>`
+    - CSS only applied around text content
