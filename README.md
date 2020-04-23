@@ -88,3 +88,20 @@
 - ```html
   <meta name="author" content="sejoonkim" />
   ```
+
+<br/>
+
+### Semantic vs. non-Semantic tags
+
+- semantic = contains **meaning**
+  - `<h1>`
+  - `<article>`
+  - `<header>`
+- non-semantic
+  - `<div>`
+    - block-level element
+    - like a container, box
+    - put more `<tags>` inside
+  - `<span>`
+    - inline element
+    - container for text other than `<title>`, `<p>`
