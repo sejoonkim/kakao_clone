@@ -141,3 +141,15 @@
 
 1. selector
 2. property
+
+<br/>
+
+### Connect CSS to HTML
+
+1. inline
+
+2. external
+
+   - ```html
+     <link rel="stylesheet" href="style.css" />
+     ```
