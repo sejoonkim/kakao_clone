@@ -210,3 +210,56 @@
   - consider the content a text
   - when applied to `<span>`
     - CSS only applied around text content
+
+<br/>
+
+### Position
+
+- Remove default styles by browser
+
+  - ```css
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    ```
+
+- 4 properties
+
+  1. `position: static;`
+
+     - default property
+
+     - > statically created in the page
+
+  2. `position: fixed;`
+
+     - > fixed on the screen, it hangs
+
+     - unlocks 4 properties = location determined by the `screen`
+
+       1. `top: 10px;`
+       2. `bottom: 10px;`
+       3. `left: 30px;`
+       4. `right: 50px`
+
+  3. `position: absolute`
+
+     - ```html
+       <div class="abs-box">
+         <div class="abs-child"></div>
+       </div>
+       ```
+
+     - > position: absolute to the position: relative
+
+     - when a tag's `position: absolute`
+
+       - looks for `position: relative` on the parent
+       - if fails -> absolute position relative to the `<body>`
+
+  4. `position: relative`
+     - works with `position: absolute`
+     - if set, it works as the base `position` for the `child elements`
