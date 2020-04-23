@@ -105,3 +105,16 @@
   - `<span>`
     - inline element
     - container for text other than `<title>`, `<p>`
+
+<br/>
+
+### id & class
+
+- `id`
+
+  - **ONE** `id` per element
+  - unique identifier
+
+- `class`
+  - can be more than 1 **in a tag**
+  - can be shared in **multiple tags**
