@@ -118,3 +118,26 @@
 - `class`
   - can be more than 1 **in a tag**
   - can be shared in **multiple tags**
+
+<br/>
+
+<br/>
+
+## 3. CSS3
+
+### CSS Syntax
+
+- ```css
+  div {
+    display: block;
+  }
+
+  #id_name {
+  }
+
+  .className {
+  }
+  ```
+
+1. selector
+2. property
