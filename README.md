@@ -153,3 +153,44 @@
    - ```html
      <link rel="stylesheet" href="style.css" />
      ```
+
+<br/>
+
+### Box Model
+
+- 4 components
+
+  1. Margin
+
+     - ```css
+       body {
+           margin: 20px;
+           margin: 20px 10px; up-down left-right
+           margin: 20px 10px 5px 2px; clock-wise
+       }
+       ```
+
+  2. Border
+
+     - ```css
+       body {
+         border-width: 5px;
+         border-color: red;
+         border-style: dashed;
+         border: 10px dashed red;
+       }
+       ```
+
+     - width, style, color
+
+  3. Padding
+
+     - ```cs
+       body {
+           padding: 20px;
+           padding: 20px 10px; up-down left-right
+           padding: 20px 10px 5px 2px; clock-wise
+       }
+       ```
+
+  4. Content
