@@ -70,3 +70,21 @@
     - gives information to the browser
 
 <br/>
+
+### Add meta Information to Document
+
+- ```html
+  <meta charset="UTF-8" />
+  ```
+
+  - encoding
+
+- ```html
+  <meta name="description" content="Welcome to Kakao Clone" />
+  ```
+
+  - the grey paragraph on every searched element
+
+- ```html
+  <meta name="author" content="sejoonkim" />
+  ```
