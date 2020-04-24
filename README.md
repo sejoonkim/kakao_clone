@@ -421,3 +421,22 @@ Contents
   ```
 
   - change all properties
+
+### Transformations
+
+- Link - [Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+
+- combined with `transitions`
+
+  - ```css
+    .box {
+      width: 500px;
+      height: 500px;
+      background-color: red;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .box:hover {
+      transform: rotate(5turn) scale(0.5, 0.5);
+    }
+    ```
