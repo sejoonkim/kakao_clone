@@ -341,3 +341,40 @@
         flex-wrap: reverse; // wrap-reverse
       }
       ```
+
+<br/>
+
+### CSS Selectors and Pseudo Selectors
+
+- Situation
+
+  1. do not know class name or id selector
+
+- Pseudo Selector = selector that is not element
+
+  - ```css
+    input[type="submit"] {
+      background-color: red;
+    }
+    ```
+
+  - ```css
+    .box:last-child {
+      // first-child, nth-child(2), nth-child(2n), nth-child(2n+1) // from 1st element select 2n
+      background-color: maroon;
+    }
+    ```
+
+  - ```css
+    input + .box {
+      // brother
+      border: 1px solid yellow;
+    }
+    ```
+
+  - ```css
+    input > .box {
+      // direct child
+      border: 1px solid yellow;
+    }
+    ```

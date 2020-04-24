@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors and Pseudo Selectors</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        input[type="submit"] {
+            background-color: red;
+        }
+
+        /* input[type="password"] {
+            background-color: blue;
+        } */
+        input[required="required"] {
+            background-color: green;
+        }
+
+        input+.box {
+            border: 1px solid yellow;
+        }
+
+        .container>.box {
+            background-color: yellowgreen;
+        }
+
+        .box {
+            background-color: magenta;
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+        }
+
+        /* .box:nth-child(2n+1) {
+            background-color: maroon;
+        } */
+
+        .child {
+            width: 50px;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="box child"></div>
+        </div>
+        <div class="box"></div>
+        <div class="box">
+            <input type="password" required="required">
+            <input type="submit" value="Submit" class="submit">
+        </div>
+    </div>
+    <a href="index.html">To index</a>
+</body>
+
+</html>
