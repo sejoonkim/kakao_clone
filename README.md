@@ -378,3 +378,15 @@
       border: 1px solid yellow;
     }
     ```
+
+<br/>
+
+### CSS States
+
+1. `:active`
+   - mouse clicked
+2. `:focus`
+   - have higher priority compared to `:hover`
+3. `:visited`
+4. `:hover`
+   - mouse on
