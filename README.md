@@ -1,5 +1,12 @@
 # kakao_clone
 
+Contents
+
+1. [Web Developer Tools](#1-web-developer-tools)
+2. [HTML5](#2-html5)
+3. [CSS3](#3-css3)
+4. [Advanced CSS](#4-advanced-css)
+
 ## 1. Web Developer Tools
 
 ### VS code
@@ -390,3 +397,27 @@
 3. `:visited`
 4. `:hover`
    - mouse on
+
+<br/>
+
+<br/>
+
+## 4. Advanced CSS
+
+### Transitions
+
+- Link - [Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+
+- Transitions appear when changes to `state`(**hover**, **active**, **focus**, visited)
+
+- ```css
+  transition: background-color 0.5s ease-in-out;
+  ```
+
+  - name of the property to change, duration, method
+
+- ```css
+  transition: all 0.5s ease-in-out;
+  ```
+
+  - change all properties
