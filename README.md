@@ -440,3 +440,60 @@ Contents
       transform: rotate(5turn) scale(0.5, 0.5);
     }
     ```
+
+<br/>
+
+### Animations
+
+- syntax
+
+  - `@keyframes ANIMATION_NAME` - stating the animation
+  - 2 steps
+    1. `from~to`
+    2. `0% ~ 50% ~ 100%`
+
+- example
+
+  - ```css
+    .box {
+      animation: 1.5s scaleAndRotateSquare infinite ease-in-out;
+    }
+
+    @keyframes scaleAndRotateSquare {
+      /* from {
+            transform: none;
+        }
+        to {
+            transform: rotate(1turn) scale(.5, .5);
+        } */
+      0% {
+        transform: none;
+      }
+      50% {
+        transform: rotate(1turn) scale(0.5, 0.5);
+      }
+      100% {
+        transform: none;
+      }
+    }
+    ```
+
+  - `from~to` is one way, 2 stages
+
+  - `0% ~ 50% ~ 100%` can be both ways
+
+<br/>
+
+### Media Queries
+
+- example
+
+  - ```css
+    @media screen and (min-width: 320px) and (max-width: 640px) {
+      body {
+        background-color: red;
+      }
+    }
+    ```
+
+    - CSS applied when the screen's min and max width are set accordingly

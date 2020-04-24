@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            color: white;
+            animation: 4s scaleAndRotateSquare infinite ease-in-out;
+        }
+
+        @keyframes scaleAndRotateSquare {
+
+            /* from {
+                transform: none;
+            }
+
+            to {
+                transform: rotate(1turn) scale(.5, .5);
+            } */
+            0% {
+                transform: none;
+            }
+
+            50% {
+                transform: rotate(1turn) scale(.5, .5);
+                color: white;
+                color: blue;
+            }
+
+            100% {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Text</div>
+    <a href="index.html">To index</a>
+</body>
+
+</html>
