@@ -263,3 +263,81 @@
   4. `position: relative`
      - works with `position: absolute`
      - if set, it works as the base `position` for the `child elements`
+
+<br/>
+
+### Fluid Layouts with Flexbox
+
+- Before: problems with grid layouts, columns, boxes
+
+  - no **perfectly aligned** grids
+
+  - ```html
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    ...
+    ```
+
+  - will automatically move to the next line
+
+- After
+
+  - fix with `display: flex`
+
+    - make `parent` container a `flex` container
+
+    - do not need to talk to `child`
+
+    - > "Hey parent, your children should look like this"
+
+    - ```css
+      .parent {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 100%;
+      }
+      ```
+
+    - ```html
+      <div class="parent">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+      </div>
+      ```
+
+  - `flex-direction: row`, `flex-direction:column`
+
+    - how elements inside are shown
+    - `justify-content`
+      - horizontal -> vertical
+    - `align-items`
+      - vertical -> horizontal
+
+  - `flex-wrap`
+
+    - when find the end of the page, automatically move to the next line
+    - `flex-wrap: nowrap;` = default
+
+  - examples
+
+    - ```css
+      .parent {
+        flex-direction: row-reverse; // column-reverse
+        flex-wrap: reverse; // wrap-reverse
+      }
+      ```
