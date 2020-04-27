@@ -2,10 +2,18 @@
 
 Contents
 
+Theory
+
 1. [Web Developer Tools](#1-web-developer-tools)
 2. [HTML5](#2-html5)
 3. [CSS3](#3-css3)
 4. [Advanced CSS](#4-advanced-css)
+
+Practice
+
+1. [HTML](#1-html)
+2. [CSS](#2-css)
+3. [Animations](#3-animations)
 
 ## 1. Web Developer Tools
 
@@ -268,6 +276,7 @@ Contents
        - if fails -> absolute position relative to the `<body>`
 
   4. `position: relative`
+
      - works with `position: absolute`
      - if set, it works as the base `position` for the `child elements`
 
@@ -497,3 +506,74 @@ Contents
     ```
 
     - CSS applied when the screen's min and max width are set accordingly
+
+<br/>
+
+<br/>
+
+## 1. HTML
+
+### Status Bar
+
+- BEM model
+
+  - used when two or more states are used for a tag/component
+
+  - `block--modifier-value`
+
+    ```html
+    <button class="button">
+      Normal button
+    </button>
+    <button class="button button--state-success">
+      Success button
+    </button>
+    <button class="button button--state-danger">
+      Danger button
+    </button>
+    ```
+
+    ```css
+    .button {
+      display: inline-block;
+      border-radius: 3px;
+      padding: 7px 12px;
+      border: 1px solid #d5d5d5;
+      background-image: linear-gradient(#eee, #ddd);
+      font: 700 13px/18px Helvetica, arial;
+    }
+    .button--state-success {
+      color: #fff;
+      background: #569e3d linear-gradient(#79d858, #569e3d) repeat-x;
+      border-color: #4a993e;
+    }
+    .button--state-danger {
+      color: #900;
+    }
+    ```
+
+  - parent-chlid relationship
+
+    ```html
+    <div class="button">
+      <div class="button__child">
+        Child Div
+      </div>
+    </div>
+    ```
+
+* Icons
+
+  - fontawesome
+
+  - add `<script>` tag to `<header>`
+
+    ```html
+    <script src="URL" crossorigin="anonymous"></script>
+    ```
+
+  - use with `<i>` tag
+
+    ```html
+    <i class="fas fa-clock"></i>
+    ```
