@@ -577,3 +577,9 @@ Practice
     ```html
     <i class="fas fa-clock"></i>
     ```
+
+<br/>
+
+### Navigation Bar
+
+- change icon to simulate selected
