@@ -583,3 +583,13 @@ Practice
 ### Navigation Bar
 
 - change icon to simulate selected
+
+<br/>
+
+### Chat Screen
+
+- Structuring classes
+  - chats
+    - chats\_\_list
+      - chat\_\_column
+      - chat\_\_column
