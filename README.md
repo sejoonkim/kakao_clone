@@ -593,3 +593,15 @@ Practice
     - chats\_\_list
       - chat\_\_column
       - chat\_\_column
+
+<br/>
+
+### Friends Screen
+
+- create a `global class` for repeated elements
+
+  - `g-avatar`
+
+- BEM model
+  - `__` = parent\_\_child
+  - `--` = element--NewTrait
