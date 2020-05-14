@@ -605,3 +605,9 @@ Practice
 - BEM model
   - `__` = parent\_\_child
   - `--` = element--NewTrait
+
+<br/>
+
+### Find Screen
+
+- copy HTML structure from Friends Screen
