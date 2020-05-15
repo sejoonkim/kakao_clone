@@ -611,3 +611,10 @@ Practice
 ### Find Screen
 
 - copy HTML structure from Friends Screen
+
+<br/>
+
+### More Screen
+
+- copy HTML structure from Friends Screen
+- link with icons
